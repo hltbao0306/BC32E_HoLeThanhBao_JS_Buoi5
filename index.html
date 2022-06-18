@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài Tập Hàm</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- Bài tập 1 -->
+        <div class="container w-50 rounded shadow mt-5 p-3" style="height: 340px; background-image: url(./img.jpg)">
+            <h3 class="my-3">🏫 Quản lý tuyển sinh</h3>
+            <div class="form-group row">
+              <div class="col-4 mb-4">
+                <input id="diemChuan" type="number" class="mr-3 p-1 form-control" placeholder="Điểm chuẩn"/>
+              </div>
+              <div class="col-4 mb-4">
+                <select class="form-control" id="chonKhuVuc" name="" style="font-weight: bolder;">
+                  <option value="">-Chọn khu vực-</option>
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+                </select>
+              </div>
+              <div class="col-4 mb-4">
+                <select class="form-control" id="chonDoiTuong" name="" style="font-weight: bolder;">
+                  <option value="">-Chọn đối tượng-</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col-4">
+                <input id="diemMon1" type="number" class="mr-3 p-1 form-control" placeholder="Điểm môn thứ 1"/>
+              </div>
+              <div class="col-4">
+                <input id="diemMon2" type="number" class="mr-3 p-1 form-control" placeholder="Điểm môn thứ 2"/>
+              </div>
+              <div class="col-4">
+                <input id="diemMon3" type="number" class="mr-3 p-1 form-control" placeholder="Điểm môn thứ 3"/>
+              </div>
+              <button id="btnKetQua" class="btn btn-primary btn-lg rounded-pill mt-4 ml-4 px-4 mb-3">Kết Quả</button>
+              <div class="alert-success form-control ml-3 mr-3" id="ketQua" style="font-weight: bolder;">👉</div>
+            </div>
+        </div>
+
+
+      <!-- Bài tập 2 -->
+        <div class="container w-50 rounded shadow mt-5 p-3" style="height: 280px; background-image: url(./img.jpg)">
+            <h3 class="my-3">🔋 Tính tiền điện</h3>
+            <div class="form-group row">
+              <div class="col-4">
+                <input id="hoTen" class="mr-3 p-1 form-control" placeholder="Nhập Họ Tên" />
+              </div>
+              <div class="col-4">
+                <input id="soKW" type="number" class="mr-3 p-1 form-control" placeholder="Nhập Số KW">
+              </div>
+            </div>
+            <button id="btnKetQua_b2" class="btn btn-primary btn-lg rounded-pill mt-4 px-4 mb-3">Tính Tiền Điện</button>
+            <div class="alert-success form-control" id="ketQua_b2" style="font-weight: bolder;">👉</div>
+        </div>
+
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
